@@ -1,0 +1,9 @@
+.post-container {
+    max-width: 500px;
+    border: 1px solid #3e3e3e;
+    position: relative;
+
+    .post-content {
+        padding: 2rem;
+    }
+}

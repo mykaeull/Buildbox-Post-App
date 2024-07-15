@@ -1,0 +1,28 @@
+.postTextAreaContainer {
+    width: 28rem;
+    position: relative;
+
+    .postTextArea {
+        width: 100%;
+        border-radius: 8px;
+        border: 1px solid #3e3e3e;
+        outline: none;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .postTextArea:focus {
+        outline: none;
+        border: none;
+        box-shadow: 0 0 0 1px #d8d1d1;
+    }
+    .postTextArea::placeholder {
+        color: #bdbdbd;
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .postTextAreaContainer {
+        width: 25rem;
+    }
+}

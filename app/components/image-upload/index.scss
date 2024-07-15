@@ -1,0 +1,34 @@
+.image-upload-container {
+    .image-upload-placeholder {
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 2.625rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .image-upload-icon {
+        font-size: 1.5rem;
+        color: gray;
+    }
+
+    .image-preview-container {
+        position: relative;
+
+        .image-preview {
+            border-radius: 2.625rem;
+            object-fit: cover;
+            width: 6.25rem;
+            height: 6.25rem;
+        }
+
+        .trash-icon {
+            position: absolute;
+            right: -3.125rem;
+            top: 35%;
+            font-size: 2rem;
+            color: #9c2b23;
+        }
+    }
+}

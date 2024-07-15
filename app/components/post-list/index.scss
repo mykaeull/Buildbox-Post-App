@@ -1,0 +1,27 @@
+.post-infos-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+
+    .image-section {
+        border-radius: 2.625rem;
+        object-fit: cover;
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+
+    .post-message {
+        width: 20rem;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    @media (max-width: 550px) {
+        .post-message {
+            width: 18rem;
+        }
+    }
+}
